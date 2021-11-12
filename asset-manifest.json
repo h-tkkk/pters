@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/h-tkkk/pters.git/static/css/main.b5be411f.chunk.css",
-    "main.js": "/h-tkkk/pters.git/static/js/main.244daa82.chunk.js",
-    "main.js.map": "/h-tkkk/pters.git/static/js/main.244daa82.chunk.js.map",
-    "runtime-main.js": "/h-tkkk/pters.git/static/js/runtime-main.fe57b04b.js",
-    "runtime-main.js.map": "/h-tkkk/pters.git/static/js/runtime-main.fe57b04b.js.map",
-    "static/js/2.56f91fb3.chunk.js": "/h-tkkk/pters.git/static/js/2.56f91fb3.chunk.js",
-    "static/js/2.56f91fb3.chunk.js.map": "/h-tkkk/pters.git/static/js/2.56f91fb3.chunk.js.map",
-    "index.html": "/h-tkkk/pters.git/index.html",
-    "static/css/main.b5be411f.chunk.css.map": "/h-tkkk/pters.git/static/css/main.b5be411f.chunk.css.map",
-    "static/js/2.56f91fb3.chunk.js.LICENSE.txt": "/h-tkkk/pters.git/static/js/2.56f91fb3.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/h-tkkk/pters.git/static/media/NotoSansKR-Regular.e95adf0e.woff2"
+    "main.css": "/static/css/main.66494129.chunk.css",
+    "main.js": "/static/js/main.244daa82.chunk.js",
+    "main.js.map": "/static/js/main.244daa82.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b61d69ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b61d69ca.js.map",
+    "static/js/2.56f91fb3.chunk.js": "/static/js/2.56f91fb3.chunk.js",
+    "static/js/2.56f91fb3.chunk.js.map": "/static/js/2.56f91fb3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.66494129.chunk.css.map": "/static/css/main.66494129.chunk.css.map",
+    "static/js/2.56f91fb3.chunk.js.LICENSE.txt": "/static/js/2.56f91fb3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/NotoSansKR-Regular.e95adf0e.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe57b04b.js",
+    "static/js/runtime-main.b61d69ca.js",
     "static/js/2.56f91fb3.chunk.js",
-    "static/css/main.b5be411f.chunk.css",
+    "static/css/main.66494129.chunk.css",
     "static/js/main.244daa82.chunk.js"
   ]
 }
