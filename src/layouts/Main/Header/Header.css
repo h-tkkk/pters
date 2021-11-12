@@ -1,0 +1,551 @@
+@media screen and (min-width:1024px) {
+  img {
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+  }
+
+  .container{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      position: fixed;
+  }
+
+  .logo {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 600;
+    font-size: larger;
+    color: #fe4e65;
+    text-align: left;
+  }
+
+  .content{
+      display:flex;
+  }
+
+  .nav-container-original {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    background-color: rgba( 255, 255, 255, 0 );
+    list-style-type: none;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  .nav-container-change {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.3em;
+    background-color: white;
+    list-style-type: none;
+    padding-left: 7em;
+  }
+
+  .nav-item {
+    margin-right: 2em;
+    padding-top: 0.6em;
+  }
+
+  .font-original {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white; 
+  }
+
+  .font-change {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+  }
+
+  .nav-item-list {
+    display: flex;
+    width: 100%;
+    font-family: "Noto Sans CJK KR";
+    font-weight: 700;
+    size: 18px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+
+  .drop-btn-original {
+    background-color: rgba( 255, 255, 255, 0 );
+    color: white;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .drop-btn-change {
+    background-color: white;
+    color: black;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 38px;
+    padding-top: 5px;
+  }
+
+  .dropdown-content-original {
+    display: none;
+    position: absolute;
+    background-color: rgba( 255, 255, 255, 0 );
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-change {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-original a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-change a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  img {
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+  }
+
+  .container{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      position: fixed;
+  }
+
+  .logo {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 600;
+    font-size: larger;
+    color: #fe4e65;
+    text-align: left;
+  }
+
+  .content{
+      display:flex;
+  }
+
+  .nav-container-original {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    background-color: rgba( 255, 255, 255, 0 );
+    list-style-type: none;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  .nav-container-change {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.3em;
+    background-color: white;
+    list-style-type: none;
+    padding-left: 7em;
+  }
+
+  .nav-item {
+    margin-left: 2em;
+    padding-top: 0.6em;
+  }
+
+  .font-original {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white; 
+  }
+
+  .font-change {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+  }
+
+  .nav-item-list {
+    width: 100%;
+    display: flex;
+    font-family: "Noto Sans CJK KR";
+    font-weight: 700;
+    size: 18px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .drop-btn-original {
+    background-color: rgba( 255, 255, 255, 0 );
+    color: white;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .drop-btn-change {
+    background-color: white;
+    color: black;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 38px;
+    padding-top: 5px;
+  }
+
+  .dropdown-content-original {
+    display: none;
+    position: absolute;
+    background-color: rgba( 255, 255, 255, 0 );
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-change {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-original a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-change a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  img {
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+  }
+
+  .container{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      position: fixed;
+  }
+
+  .logo {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 600;
+    font-size: larger;
+    color: #fe4e65;
+    text-align: left;
+  }
+
+  .content{
+      display:flex;
+  }
+
+  .nav-container-original {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    background-color: rgba( 255, 255, 255, 0 );
+    list-style-type: none;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .nav-container-change {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.3em;
+    background-color: white;
+    list-style-type: none;
+    padding-left: 7em;
+  }
+
+  .nav-item {
+    margin-right: 2em;
+    padding-top: 0.6em;
+  }
+
+  .font-original {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white; 
+  }
+
+  .font-change {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+  }
+
+  .nav-item-list {
+    display: flex;
+    width: 100%;
+    font-family: "Noto Sans CJK KR";
+    font-weight: 700;
+    size: 18px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+
+  .drop-btn-original {
+    background-color: rgba( 255, 255, 255, 0 );
+    color: white;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .drop-btn-change {
+    background-color: white;
+    color: black;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 38px;
+    padding-top: 5px;
+  }
+
+  .dropdown-content-original {
+    display: none;
+    position: absolute;
+    background-color: rgba( 255, 255, 255, 0 );
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-change {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-original a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-change a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  img {
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+  }
+
+  .container{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      position: fixed;
+  }
+
+  .logo {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 600;
+    font-size: larger;
+    color: #fe4e65;
+    text-align: left;
+  }
+
+  .content{
+      display:flex;
+  }
+
+  .nav-container-original {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    background-color: rgba( 255, 255, 255, 0 );
+    list-style-type: none;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  .nav-container-change {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.3em;
+    background-color: white;
+    list-style-type: none;
+    padding-left: 7em;
+  }
+
+  .nav-item {
+    margin-left: 2em;
+    padding-top: 0.6em;
+  }
+
+  .font-original {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white; 
+  }
+
+  .font-change {
+    font-family: "Noto Sans CJK KR";
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+  }
+
+  .nav-item-list {
+    width: 100%;
+    display: flex;
+    font-family: "Noto Sans CJK KR";
+    font-weight: 700;
+    size: 18px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .drop-btn-original {
+    background-color: rgba( 255, 255, 255, 0 );
+    color: white;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .drop-btn-change {
+    background-color: white;
+    color: black;
+    font-family: "Noto Sans CJK KR";
+    font-size: 1.1em;
+    font-weight: 700;
+    border: none;
+    padding-top: 0px;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 38px;
+    padding-top: 5px;
+  }
+
+  .dropdown-content-original {
+    display: none;
+    position: absolute;
+    background-color: rgba( 255, 255, 255, 0 );
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-change {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 180px;
+    z-index: 1;
+  }
+
+  .dropdown-content-original a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content-change a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+}
+
+.dropdown-content-original a:hover {background-color: rgba( 255, 255, 255, 0 );}
+.dropdown-content-change a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content-original {display: block;}
+.dropdown:hover .dropdown-content-change {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
